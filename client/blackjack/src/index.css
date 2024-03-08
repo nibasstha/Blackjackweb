@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.gameBoard {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./assets/board.png);
+  background-size: cover;
+}
+
+.introScreen {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./assets/homeScreen.png);
+  background-size: cover;
+}
+
+.authScreen {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  background-size: cover;
+  background-image: url(./assets/plainbg.jpg);
+}
